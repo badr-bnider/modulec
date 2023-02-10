@@ -57,28 +57,30 @@
       }
     ],
     "favicon": "@PROJECT_PATH@/assets/images/modulec-logo-3.png",
-    "mbrsiteDomain": "uxsbqijy6o",
-    "imageResize": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "mbrsiteDomain": "modulec",
+    "imageResize": true,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://modulec.ma",
     "cookiesAlert": false,
     "gdpr": false,
     "publishChangesOnly": false,
     "uniqCompNum": 15,
     "versionPublish": "5.7.8",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Modulec",
+        "meta_descr": "Modulec est un concept d'architecture modulaire qui vise à réutiliser les conteneurs pour fournir des habitations durables et économiques destinées aux ménages défavorisés.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "socialSharingUrl": ""
       },
       "components": [
         {
